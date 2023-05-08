@@ -1,0 +1,119 @@
+body { margin: 0;
+    background-color: #1F2937;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+#container{
+    display: flex;
+    margin: 0 auto;
+    height: 100dvh;
+    border: 2px solid red;
+   
+}
+
+/*------------- input -------------*/
+#input-el{
+    background-color: #6943FF;
+    font-family: 'Inter', sans-serif ;
+    font-weight: 800;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+#input{
+    font-size: 55px;
+    color: #fff;
+    background-color: #6943FF;
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+#content{
+    width: 80%;
+    max-width: 60rem;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
+
+    flex-direction: column;
+
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
+    width: 10px;
+    height: 40px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 8px;
+}
+
+
+
+input:focus {
+    outline: none;
+ }
+
+#convert-btn{
+    cursor: pointer;
+    color: #3D3D3D;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 8.2em;
+    height: 2.2em;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+
+/*------------- results -------------*/
+
+#results{
+    color:#CCC1FF;
+    text-align: center;
+    font-family: 'Inter', sans-serif ;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0.5em;
+   
+
+}
+
+#result-el{
+    padding: 0.1em; 
+    margin: 0.5em;
+    width: 100%;
+    height: 8em;
+    background: #273549;
+    border-radius: 3px;
+
+}
+
+#result-length, #result-volume, #result-mass{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
